@@ -1,0 +1,14 @@
+Node3D
+CSGBox3D
+Camera3D
+SubViewport
+SubViewportContainer
+RayCast3D
+BoxContainer
+MeshInstance3D
+CollisionShape3D
+StaticBody3D
+Node
+AnimationTree
+ShapeCast3D
+CharacterBody3D

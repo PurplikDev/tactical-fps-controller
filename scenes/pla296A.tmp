@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://sdruuj5ppvm"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_b8jwt"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ke2fj"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_dxaki"]
+height = 1.5
+
+[node name="player" type="CharacterBody3D"]
+script = ExtResource("1_b8jwt")
+
+[node name="normal_collision_shape" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_ke2fj")
+
+[node name="crouch_collision_shape" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, 0)
+shape = SubResource("CapsuleShape3D_dxaki")
+disabled = true
+
+[node name="RayCast3D" type="RayCast3D" parent="."]
+target_position = Vector3(0, 2, 0)
+
+[node name="body" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, 0)
+
+[node name="neck" type="Node3D" parent="body"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.85, 0)
+
+[node name="head" type="Node3D" parent="body/neck"]
+
+[node name="eyes" type="Node3D" parent="body/neck/head"]
+
+[node name="player_camera" type="Camera3D" parent="body/neck/head/eyes"]
+doppler_tracking = 2
+fov = 80.0

@@ -1,0 +1,8 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1712395515
+icon.svg::CompressedTexture2D::6199330264120528055::1712342678::1712342691::1::::<><>::
+::res://scenes/::1712347292
+main.tscn::PackedScene::8045906042187084511::1712345166::0::1::::<><>::uid://pko1tp01ft01::::res://scenes/world.tscn
+player.tscn::PackedScene::37372390860466314::1712345431::0::1::::<><>::
+world.tscn::PackedScene::1074373922937909984::1712347292::0::1::::<><>::uid://sdruuj5ppvm::::res://scenes/player.tscn
+::res://scripts/::1712343517
