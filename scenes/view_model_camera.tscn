@@ -10,7 +10,7 @@ script = ExtResource("1_oh3vu")
 [node name="fps_rig" type="Node3D" parent="."]
 
 [node name="rig_anchor" type="Node3D" parent="fps_rig"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.15, -0.25, -1.5)
+transform = Transform3D(0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -0.15, -0.25, -1.5)
 
 [node name="_gun_" type="CSGBox3D" parent="fps_rig/rig_anchor"]
 transform = Transform3D(0.998738, 0, 0.0502269, 0.001837, 0.999331, -0.0365278, -0.0501933, 0.0365739, 0.998069, 0.366053, 0.0241873, 0.399046)

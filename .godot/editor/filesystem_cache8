@@ -1,8 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1712395515
+::res://::1713553804
 icon.svg::CompressedTexture2D::6199330264120528055::1712342678::1712342691::1::::<><>::
-::res://scenes/::1712347292
-main.tscn::PackedScene::8045906042187084511::1712345166::0::1::::<><>::uid://pko1tp01ft01::::res://scenes/world.tscn
-player.tscn::PackedScene::37372390860466314::1712345431::0::1::::<><>::
-world.tscn::PackedScene::1074373922937909984::1712347292::0::1::::<><>::uid://sdruuj5ppvm::::res://scenes/player.tscn
-::res://scripts/::1712343517
+::res://scenes/::1712775425
+main.tscn::PackedScene::8045906042187084511::1712775425::0::1::::<><>::uid://pko1tp01ft01::::res://scenes/world.tscn
+player.tscn::PackedScene::37372390860466314::1712775425::0::1::::<><>::res://scripts/player.gd<>uid://d2jwr8hbnui15::::res://scenes/view_model_camera.tscn
+view_model_camera.tscn::PackedScene::9074308105577750658::1712775425::0::1::::<><>::res://scripts/view_model_camera.gd
+world.tscn::PackedScene::1074373922937909984::1712775425::0::1::::<><>::uid://sdruuj5ppvm::::res://scenes/player.tscn
+::res://scripts/::1712444700
+player.gd::GDScript::-1::1712444700::0::1::::Player<>CharacterBody3D<>::
+view_model_camera.gd::GDScript::-1::1712441711::0::1::::ViewModelCamera<>Camera3D<>::
